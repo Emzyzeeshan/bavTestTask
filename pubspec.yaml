@@ -1,0 +1,48 @@
+name: bav
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+  flutter_rating_bar: ^4.0.1
+  pin_code_fields: ^8.0.1
+  country_pickers: ^2.0.0
+  sms_autofill: ^2.3.0
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Outfit
+      fonts: 
+        - asset: assets/fonts/OutfitBold.ttf
+          weight: 700
+        - asset: assets/fonts/OutfitRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OutfitMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OutfitSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OutfitLight.ttf
+          weight: 300
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
